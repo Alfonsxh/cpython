@@ -1,0 +1,39 @@
+add_compile_definitions(PREFIX="/usr/local" EXEC_PREFIX="/usr/local" VERSION="3.8" VPATH="" PYTHONPATH="")
+
+add_library(alfons_module
+        config.c
+        getpath.c
+        gcmodule.c
+        posixmodule.c
+        errnomodule.c
+        pwdmodule.c
+        _sre.c
+        _codecsmodule.c
+        _weakref.c
+        _functoolsmodule.c
+        _operator.c
+        _collectionsmodule.c
+        _abc.c
+        itertoolsmodule.c
+        atexitmodule.c
+        signalmodule.c
+        _stat.c
+        timemodule.c
+        _threadmodule.c
+        _localemodule.c
+        _io/_iomodule.c
+        _io/iobase.c
+        _io/fileio.c
+        _io/bytesio.c
+        _io/bufferedio.c
+        _io/textio.c
+        _io/stringio.c
+        faulthandler.c
+        _tracemalloc.c
+        hashtable.c
+        symtablemodule.c
+        xxsubtype.c
+        _math.c
+        getbuildinfo.c
+        ../Objects/accu.c
+        )
