@@ -1,0 +1,11 @@
+add_library(alfons_parser
+        acceler.c
+        grammar1.c
+        listnode.c
+        node.c
+        parser.c
+        token.c
+        myreadline.c
+        parsetok.c
+        tokenizer.c
+        )
