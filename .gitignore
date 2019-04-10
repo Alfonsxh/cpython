@@ -40,7 +40,6 @@ Misc/python-config.sh
 Modules/Setup
 Modules/Setup.config
 Modules/Setup.local
-Modules/config.c
 Modules/ld_so_aix
 Programs/_freeze_importlib
 Programs/_freeze_importlib.exe
@@ -92,7 +91,6 @@ libpython*.dylib
 libpython*.dll
 platform
 pybuilddir.txt
-pyconfig.h
 python-config
 python-config.py
 python.bat
